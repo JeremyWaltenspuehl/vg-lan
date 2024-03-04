@@ -1,0 +1,57 @@
+{
+  "name": "vg-lan",
+  "version": "0.0.0",
+  "description": "Bundle for Visiongaming Lan 2024",
+  "homepage": "https://visiongaming.ch",
+  "author": {
+    "name": "jschuler",
+    "email": "jeremy.schuler@vjss.ch",
+    "url": "https://vjss.ch"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "vg",
+    "visiongaming",
+    "lan",
+    "2024",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Panel",
+        "fullbleed": true,
+        "file": "panel.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "MIT"
+}
