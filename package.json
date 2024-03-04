@@ -25,10 +25,31 @@
     "compatibleRange": "^2.0.0",
     "dashboardPanels": [
       {
-        "name": "panel",
-        "title": "Panel",
-        "fullbleed": true,
+        "name": "Players",
+        "title": "Players",
+        "width": 4,
         "file": "panel.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "Apex Teams",
+        "title": "Apex Teams",
+        "width": 4,
+        "file": "apex_teams.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "Rocket League Status",
+        "title": "Rocket League Status",
+        "width": 4,
+        "file": "rl_status.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "OBS Scene Switcher",
+        "title": "OBS Scene Switcher",
+        "width": 3,
+        "file": "obs_scenes.html",
         "headerColor": "#525F78"
       }
     ],
