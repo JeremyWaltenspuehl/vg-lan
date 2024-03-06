@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+    <table>
+        <tr>
+            <td>Connection Status:</td>
+            <td>Disconnected</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="connect_to_obs()" type="button">Connect to OBS</button></td>
+        </tr>
+    </table>
     <div>
         <table>
             <tr>
@@ -23,5 +32,7 @@
             </tr>
         </table>
     </div>
+    <textarea name="OBS_Logs" id="obs_logs" cols="50" rows="10"></textarea>
+    <script src="js/obs_scenes.js"></script>
 </body>
 </html>

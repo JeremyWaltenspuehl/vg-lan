@@ -41,7 +41,7 @@
       {
         "name": "Rocket League Status",
         "title": "Rocket League Status",
-        "width": 4,
+        "width": 8,
         "file": "rl_status.html",
         "headerColor": "#525F78"
       },
