@@ -24,6 +24,6 @@ rpl_SceneNames.on('change', () => {
 });
 
 function update_scene_names(break_scene_name, rl_scoreboard_scene_name){
-    rpl_SceneNames.value.BreakScene = break_scene_name
-    rpl_SceneNames.value.RlScoreBoard = rl_scoreboard_scene_name
+    rpl_SceneNames.value.BreakScene = break_scene_name;
+    rpl_SceneNames.value.RlScoreBoard = rl_scoreboard_scene_name;
 }
