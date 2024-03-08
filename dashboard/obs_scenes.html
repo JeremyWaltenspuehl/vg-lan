@@ -10,7 +10,7 @@
     <table>
         <tr>
             <td>Connection Status:</td>
-            <td>Disconnected</td>
+            <td id="obs_status">Disconnected</td>
         </tr>
         <tr>
             <td colspan="2"><button onclick="connect_to_obs()" type="button">Connect to OBS</button></td>
@@ -21,14 +21,20 @@
             <tr>
                 <td></td>
                 <td>Scene Name:</td>
+                <td></td>
             </tr>
             <tr>
                 <td>Break</td>
                 <td><input id="break_scene" type="text"></td>
+                <td><button onclick="switch_to_break(document.getElementById('break_scene').value)">Switch to Break</button></td>
             </tr>
             <tr>
                 <td>Rocket League Score Board</td>
                 <td><input id="rl_scoreboard" type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="update_scene_names(document.getElementById('break_scene').value, document.getElementById('rl_scoreboard').value)">Update Scene Names</button></td>
             </tr>
         </table>
     </div>
