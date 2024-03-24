@@ -34,13 +34,19 @@
     ],
     "graphics": [
       {
-        "file": "index.html",
+        "file": "starting_soon.html",
         "width": 1920,
         "height": 1080,
         "singleInstance": false
       },
       {
-        "file": "rl.html",
+        "file": "ending.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "break.html",
         "width": 1920,
         "height": 1080,
         "singleInstance": false
