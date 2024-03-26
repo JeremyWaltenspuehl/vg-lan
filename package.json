@@ -27,7 +27,7 @@
       {
         "name": "Players",
         "title": "Players",
-        "width": 4,
+        "width": 5,
         "file": "panel.html",
         "headerColor": "#525F78"
       }
@@ -47,6 +47,18 @@
       },
       {
         "file": "break.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "commentators_single.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "commentators_double.html",
         "width": 1920,
         "height": 1080,
         "singleInstance": false

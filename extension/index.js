@@ -1,21 +1,14 @@
 module.exports = function (nodecg) {
-    nodecg.Replicant('smash_players', {defaultValue: {
-        Player0:{
+    nodecg.Replicant('commentatordata', {defaultValue: {
+        commentator1:{
             Tag: "TAG1",
             Name: "Peiass1"
         },
-        Player1:{
+        commentator2:{
             Tag: "TAG2",
             Name: "Peiass2"
         },
-        Player2:{
-            Tag: "TAG3",
-            Name: "Peiass3"
-        },
-        Player3:{
-            Tag: "TAG4",
-            Name: "Peiass4"
-        }
+        second: true
         }
     });
     nodecg.Replicant('SceneNames', {defaultValue:
